@@ -1,59 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
-:root {
-    --cor-de-fundo:#f30483;
-    --vinho:#650726;
-    --preto:#080000;
-    --botao-ativo:#ec4177;
-    --botao-inativo: rgba(239, 172, 206, 0.5);
-    --texto-fundo: rgba(4, 195, 229, 0.5);
-}
-
-.titulo-principal{
-background-color: var(--cor-de-fundo);
-  color: var(--preto);
-  font-family: 'Chakra Petch', Sans-Serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'inter',sans-serif;
 
 }
-.conteudo-principal{
-  display:inline;
-  flex-direction:column;
-  justify-content: center;
+
+
+header{
+  background-color: #24252a;
+  box-shadow: 0px 3px 10px #464646;
+
+  
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem ;
+  }
+  
+ .logo{
+  display: flex;
   align-items: center;
-  max-width: 1998px;
-  width: 100%;
-  margin: 1 auto;
-}
-.titulo-principal{
-  text-align: left;
-  width: 100%;
-  font-size: 32px;
-}
-.titulo-principal span{
-  color: var(--preto);
-}
-.botoes{
-  font-family: 'Chakra Petch', sans-serif ;
-  background-color: var(--botao-inativo);
-  color: var(--branco);
-  display: inline;
-  justify-content: center;
-  padding: 1em;
-  font-size: 18px;
-  align-items: center;
-  width: 100%;
-  border-bottom: 4px solid var(--botao-ativo);
-  border-left: 2px solid var(--botao-ativo);
-  border-right: 2px solid var(--botao-ativo);
-  border-top: none;
-}
-.botoes:first-child{
-  border-radius: 40px 40px 0 0;
-}
-.botoes.ativo{
-  display: block;
-}
-.ativo{
-  background-color: var(--botao-ativo);
-  border-bottom: 4px solid var(--preto);
-}
 
+ }
+
+ .logo h1{
+  color: #fff;
+
+ }
+
+ .nav-list{
+  display: flex;
+  align-items: center;
+ }
+
+ .nav-list ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+ }
+
+ .nav-item{
+  margin: 0 15px;
+ }
+ .nav-link{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 400;
+ }
+
+ .login button button{
+  border: none;
+  background-color: #0187a7;
+  padding: 10px 15px;
+  border-radius: 5px;
+ }
